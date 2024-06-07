@@ -8,7 +8,7 @@ Makes Tunnel Configuration more readable and easier
    
 <code>python3 tunnel-update.py</code>
 
-4. If you want to restart cloudflared service automatically
+3. If you want to restart cloudflared service automatically
 
 <code>sudo python3 tunnel-update.py --restart</code>
 
