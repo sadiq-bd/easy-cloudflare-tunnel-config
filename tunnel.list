@@ -1,0 +1,14 @@
+# ssh 
+ssh://127.0.0.1:22          @  ssh.example.com, ssh-access.example.com          
+
+# rdp
+rdp://192.168.0.101:3389    @  rdp-access.example.com                    
+
+# http
+http://127.0.0.1:80         @  example.com, www.example.com
+ 
+# https with origin rule
+https://127.0.0.1:8080       @  example2.com, www.example2.com    @    noTlsVerify: true, connectTimeout: 5s
+
+# default
+http_status:404
